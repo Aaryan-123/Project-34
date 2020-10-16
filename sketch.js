@@ -27,10 +27,11 @@ function setup() {
 function draw() {
   background(46,139,87);
 
-  if(keyWentDown(UP_ARROW)) {
-    writeStock(foods);
-    happyDog.addImage(happyDogImg);
-  }
+if(keyWentDown(UP_ARROW)) {
+  writeStock(foods);
+  dog.addImage(happyDogImg);
+  dog.scale=0.5;
+}
 
   drawSprites();
   //add styles here
