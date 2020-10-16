@@ -1,6 +1,6 @@
 //Create variables here
-// var dogImg;
-// var happyDogImg;
+var dogImg;
+var happyDogImg;
 var database;
 var foods;
 var foodstock;
@@ -40,7 +40,7 @@ function draw() {
 
   fill("white");
   textSize(20);
-  text("Food remaining : 20",200,180);;
+  text("Food remaining : " + foods,200,180);
 }
 
 function readStock(data) {
